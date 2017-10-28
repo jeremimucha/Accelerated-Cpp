@@ -29,5 +29,9 @@ int main()
 
 	Picture s = vcat(q, r);
 	cout << s << endl << frame(s) << endl;
+
+	Picture z = frame( frame( vcat( hcat("Dongerino", "Bomberino")
+							, vcat("Foobarerino", "Blablaerino") ) ) );
+	cout << z << endl;
 	return 0;
 }

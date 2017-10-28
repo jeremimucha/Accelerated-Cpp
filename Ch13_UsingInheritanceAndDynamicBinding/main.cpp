@@ -21,7 +21,7 @@ int main()
     string::size_type maxlen = 0;
 
     // read and store the data
-    while( record.read(cin) ){
+    while( cin >> record ){
         maxlen = max( maxlen, record.name().size() );
         students.push_back( record );
     }

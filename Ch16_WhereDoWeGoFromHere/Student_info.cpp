@@ -1,6 +1,6 @@
 #include <iostream>
-#include "Core.h"
-#include "Student_info.h"
+#include "Core.hpp"
+#include "Student_info.hpp"
 
 using std::istream;
 
